@@ -9,23 +9,29 @@
 /* Begin PBXBuildFile section */
 		C32841F3278CA8E1002C0EAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32841F2278CA8E1002C0EAE /* AppDelegate.swift */; };
 		C32841F5278CA8E1002C0EAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32841F4278CA8E1002C0EAE /* SceneDelegate.swift */; };
-		C32841F7278CA8E1002C0EAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32841F6278CA8E1002C0EAE /* ViewController.swift */; };
+		C32841F7278CA8E1002C0EAE /* BucketListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32841F6278CA8E1002C0EAE /* BucketListViewController.swift */; };
 		C32841FA278CA8E1002C0EAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32841F8278CA8E1002C0EAE /* Main.storyboard */; };
 		C32841FD278CA8E1002C0EAE /* BucketListc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C32841FB278CA8E1002C0EAE /* BucketListc.xcdatamodeld */; };
 		C32841FF278CA8E3002C0EAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32841FE278CA8E3002C0EAE /* Assets.xcassets */; };
 		C3284202278CA8E3002C0EAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3284200278CA8E3002C0EAE /* LaunchScreen.storyboard */; };
+		C328420A278CA977002C0EAE /* AddItemDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3284209278CA976002C0EAE /* AddItemDelegate.swift */; };
+		C328420C278CA983002C0EAE /* AddItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328420B278CA983002C0EAE /* AddItemTableViewController.swift */; };
+		C328420E278CA9DA002C0EAE /* CancelButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328420D278CA9DA002C0EAE /* CancelButtonDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C32841EF278CA8E1002C0EAE /* BucketListc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketListc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C32841F2278CA8E1002C0EAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C32841F4278CA8E1002C0EAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C32841F6278CA8E1002C0EAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C32841F6278CA8E1002C0EAE /* BucketListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListViewController.swift; sourceTree = "<group>"; };
 		C32841F9278CA8E1002C0EAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C32841FC278CA8E1002C0EAE /* BucketListc.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BucketListc.xcdatamodel; sourceTree = "<group>"; };
 		C32841FE278CA8E3002C0EAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3284201278CA8E3002C0EAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3284203278CA8E3002C0EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3284209278CA976002C0EAE /* AddItemDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemDelegate.swift; sourceTree = "<group>"; };
+		C328420B278CA983002C0EAE /* AddItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemTableViewController.swift; sourceTree = "<group>"; };
+		C328420D278CA9DA002C0EAE /* CancelButtonDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelButtonDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +66,15 @@
 			children = (
 				C32841F2278CA8E1002C0EAE /* AppDelegate.swift */,
 				C32841F4278CA8E1002C0EAE /* SceneDelegate.swift */,
-				C32841F6278CA8E1002C0EAE /* ViewController.swift */,
+				C32841F6278CA8E1002C0EAE /* BucketListViewController.swift */,
+				C328420B278CA983002C0EAE /* AddItemTableViewController.swift */,
 				C32841F8278CA8E1002C0EAE /* Main.storyboard */,
 				C32841FE278CA8E3002C0EAE /* Assets.xcassets */,
 				C3284200278CA8E3002C0EAE /* LaunchScreen.storyboard */,
 				C3284203278CA8E3002C0EAE /* Info.plist */,
 				C32841FB278CA8E1002C0EAE /* BucketListc.xcdatamodeld */,
+				C3284209278CA976002C0EAE /* AddItemDelegate.swift */,
+				C328420D278CA9DA002C0EAE /* CancelButtonDelegate.swift */,
 			);
 			path = BucketListc;
 			sourceTree = "<group>";
@@ -141,8 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C32841F7278CA8E1002C0EAE /* ViewController.swift in Sources */,
+				C32841F7278CA8E1002C0EAE /* BucketListViewController.swift in Sources */,
 				C32841FD278CA8E1002C0EAE /* BucketListc.xcdatamodeld in Sources */,
+				C328420C278CA983002C0EAE /* AddItemTableViewController.swift in Sources */,
+				C328420A278CA977002C0EAE /* AddItemDelegate.swift in Sources */,
+				C328420E278CA9DA002C0EAE /* CancelButtonDelegate.swift in Sources */,
 				C32841F3278CA8E1002C0EAE /* AppDelegate.swift in Sources */,
 				C32841F5278CA8E1002C0EAE /* SceneDelegate.swift in Sources */,
 			);
